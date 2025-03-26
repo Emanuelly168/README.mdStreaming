@@ -1,13 +1,11 @@
-"Academia SPARTACUS GYM"
+"Streaaming Moovix"
 
 //Propósito do sistema
 
 NossoProjeto
+O projeto trata-se de um sistema de uma plataforma online de streaming fictícia chamada “Moovix”, 
+ela oferece diversos tipos de conteúdo com uma grande variedade de gêneros.
 
-O projeto trata-se de um sistema programado para alunos de uma academia fictícia 
-chamada "SPARTACUS" tenham uma facilidade, independentemente do nível do aluno 
-(iniciante, intermediário ou avançado). Para sua realização serão utilizados 
-recursos como VS Code, GitHub e a linguagem de programação "Java".
 //Membros da equipe e suas funções
 
 Lara Magalhães - Gerente de projeto
