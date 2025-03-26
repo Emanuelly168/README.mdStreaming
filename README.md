@@ -1,4 +1,4 @@
-"Streaaming Moovix"
+"Streaming Moovix"
 
 //Propósito do sistema
 
