@@ -2,7 +2,8 @@
 
 //Propósito do sistema
 
-NossoProjeto
+Nosso Projeto
+
 O projeto trata-se de um sistema de uma plataforma online de streaming fictícia chamada “Moovix”, 
 ela oferece diversos tipos de conteúdo com uma grande variedade de gêneros.
 
