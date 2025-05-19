@@ -1,0 +1,5 @@
+criar um projeto 
+mkdir ProjetoGit
+cd ProjetoGit 
+git init
+echo "# ProjetoGit" > README.md
