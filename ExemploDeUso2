@@ -1,0 +1,3 @@
+.gitignore
+echo "/target/" > .gitignore
+echo ".class" > .gitignore
