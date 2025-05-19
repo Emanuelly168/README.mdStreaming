@@ -13,7 +13,9 @@ Lara Magalhães - Gerente de projeto
 
 Emanuelly Mendes - Líder de versionamento
 
-Guilherme Emanuel - Tester/Documentador
+Guilherme Emanuel - Tester/Desenvolvedor
+
+Lucas Pereira - Documentador
 
 Lucas Samuel - Desenvolvedor
 
