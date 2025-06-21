@@ -4,6 +4,19 @@ public class series extends titulo {
     private String generoSerie;
     private int episodiosSerie;
     private int temporada;
+
+    public series() {
+        
+    }
+
+    public series(String nome, String generoSerie, int episodiosSerie, int temporada, int ano, String classificacao) {
+        setNome(nome);
+        setAno(ano);
+        setGeneroSerie(generoSerie);
+        setEpisodiosSerie(episodiosSerie);
+        setTemporada(temporada);
+        setClassificacao(classificacao);
+    }
    
 
     

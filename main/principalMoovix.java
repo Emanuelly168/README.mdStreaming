@@ -10,12 +10,7 @@ public class principalMoovix {
         
         System.out.println("\nFilmes");
         
-        filmes card = new filmes();
-        card.setNome("Crepusculo");
-        card.setGeneroFilme("Drama, Fantasia, Romance");
-        card.setDuracaoFilme("2h 10m");
-        card.setAno(2008);
-        card.setClassificacao("12");
+        filmes card = new filmes("Crepúsculo", "Drama, Fantasia, Romance", "2h 10m", 2008, "12");
         card.avalia(6.9);//avalição de tercieros
         card.avalia(5.8);//avalição de tercieros
         card.setSuaAva(2);//sua avaliação
@@ -27,14 +22,7 @@ public class principalMoovix {
         
         System.out.println("\nSéries");
 
-        series cardSeries = new series();
-        cardSeries = new series();
-        cardSeries.setNome("Demolidor: Renascido");
-        cardSeries.setGeneroSerie("Ação, Ficção Científica, Drama, Super Herói");
-        cardSeries.setAno(2025);
-        cardSeries.setTemporada(1);
-        cardSeries.setEpisodiosSerie(6);
-        cardSeries.setClassificacao("18");
+        series cardSeries = new series("Demolidor: Renascido", "Ação, Ficção Científica, Drama, Super Herói", 2025, 1, 6, "18");
         cardSeries.avalia(8);
         cardSeries.avalia(7.8);
         cardSeries.setSuaAva(10);
@@ -46,11 +34,7 @@ public class principalMoovix {
         
         System.out.println("\nDocumentários");
 
-        documentario cardDoc = new documentario();
-        cardDoc.setNome("Senna: O Brasileiro, O Herói, O Campeão");
-        cardDoc.setDuracaoDoc("1h 46m");
-        cardDoc.setAno(2010);
-        cardDoc.setClassificacao("Livre");
+        documentario cardDoc = new documentario("Senna: O Brasileiro, O Herói, O Campeão", "1h 46m", 2010, "Livre");
         cardDoc.avalia(8);
         cardDoc.avalia(5.5);
         cardDoc.setSuaAva(10);
@@ -62,11 +46,7 @@ public class principalMoovix {
         
         System.out.println("\nAnimações");
 
-        animacao cardAni = new animacao();
-        cardAni.setNome("Como Treinar o Seu Dragão");
-        cardAni.setDuracaoAni("1h 38m");
-        cardAni.setAno(2010);
-        cardAni.setClassificacao("Livre");
+        animacao cardAni = new animacao("Como Treinar o Seu Dragão", "Aventura, Fantasia, Comédia", "1h 38m", 2010, "Livre");
         cardAni.avalia(8);
         cardAni.avalia(10);
         cardAni.setSuaAva(10);
@@ -82,27 +62,16 @@ public class principalMoovix {
         System.out.println("\nMídias disponíveis para dowload");
 
       
-        Qualidade filmeDownload = new Qualidade();
-        filmeDownload.setNome("Crepúsculo");
-        filmeDownload.setAno(2008);
-        filmeDownload.setClassificacao("12");
+        Qualidade filmeDownload = new Qualidade("Crepúsculo", 2008, "12", 2, 150, "HD");
         filmeDownload.avalia(5);
-        filmeDownload.setSuaAva(2);
-        filmeDownload.setDowloadMb(150);
-        filmeDownload.setQualidade("HD\r\n");
         filmeDownload.retornaMedia();
         
 
         
 
-        Qualidade serieDownload = new Qualidade();
-        serieDownload.setNome("Demolidor: Renascido");
-        serieDownload.setAno(2025);
-        serieDownload.setClassificacao("18");
+        Qualidade serieDownload = new Qualidade("Demolidor: Renascido", 2025, "18", 1, 300, "Full HD");
         serieDownload.avalia(8);
         serieDownload.setSuaAva(10);
-        serieDownload.setDowloadMb(300); 
-        serieDownload.setQualidade("Full HD");
         serieDownload.retornaMedia();
         
 

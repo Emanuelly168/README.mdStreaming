@@ -3,7 +3,17 @@ package midia;
 public class documentario extends titulo {
 
     private String duracaoDoc;
-    
+
+    public documentario() {
+    }
+
+
+    public documentario(String nome, String duracaoDoc, int ano, String classificacao) {
+        setNome(nome);
+        setAno(ano);
+        setDuracaoDoc(duracaoDoc);
+        setClassificacao(classificacao);
+    }
 
 
     

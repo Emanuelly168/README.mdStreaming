@@ -4,6 +4,18 @@ public class filmes extends titulo{
     
     private String generoFilme;
     private String duracaoFilme;
+
+    public filmes() {
+        
+    }
+
+    public filmes(String nome, String generoFilme, String duracaoFilme, int ano, String classificacao) {
+        setNome(nome);
+        setAno(ano);
+        setGeneroFilme(generoFilme);
+        setDuracaoFilme(duracaoFilme);
+        setClassificacao(classificacao);
+    }
    
     
     

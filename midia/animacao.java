@@ -3,6 +3,18 @@ package midia;
 public class animacao extends titulo {   
     
     private String duracaoAni;
+    
+    public animacao(){
+
+    }
+
+    public animacao(String nome, String genero, String duracaoAni, int ano, String classificacao) {
+        setNome(nome);
+        setAno(ano);
+        setDuracaoAni(duracaoAni);
+        setClassificacao(classificacao);
+        
+    }
 
 
     
